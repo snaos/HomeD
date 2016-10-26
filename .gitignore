@@ -1,8 +1,8 @@
 */node_modules
-*/app.js
-*/sftp-config.json
-*/models/presettings.js
-*/models/web_shop
-*/views/shop
-*/TemsOfUse
-*/.ignore
+/HomeD/app.js
+/HomeD/sftp-config.json
+/HomeD/models/presettings.js
+/HomeD/models/web_shop
+/HomeD/views/shop
+**/TemsOfUse
+/HomeD/.ignore
