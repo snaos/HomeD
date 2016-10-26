@@ -1,0 +1,26 @@
+#faq-container {height:  auto; padding-top: 45px; padding-bottom: 20px;}
+#faq-title { margin-top: 20px;}
+#faq-ul {
+	margin-top: 20px;
+	list-style-type: none;
+}
+.faq-question {
+	border-top: 1px solid #C3C3C3;
+	background-color: rgba(232,232,232,0.3);
+	font-size: 18px;
+	height: 32px;
+	margin-bottom: 0;
+	cursor: pointer;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+
+}
+
+.faq-answer{ display: none;}
+.faq-answer > img {
+	max-width: 100%;
+}
+.faq-question, .faq-answer {
+padding: 10px;}
+

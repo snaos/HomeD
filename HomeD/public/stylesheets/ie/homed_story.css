@@ -1,0 +1,114 @@
+
+#homed-story-container-div{
+    width: 100%;
+    min-width: 900px;
+    min-height: 600px;
+    text-align: center;
+}
+
+#homed-story-container-div-inner{
+  margin:0 auto;
+  display: inline-block;
+  width: 100%;
+}
+#homed-story-portpolio-container {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+.homed-story-portplio-list-container-outer{
+  width: 500px;
+  margin : 0 auto;
+}
+.homed-story-portpolio-text-outer{
+    display: inline-block;
+}
+.homed-story-carousel-item{
+    width: 900px;
+}
+.homed-story-portpolio-img-list-div {
+    vertical-align: top;
+    width: 500px;
+    display: inline-block;
+}
+.homed-story-portplio-list-container-inner{
+padding-top: 5px;
+  height: 90px;
+}
+#homed-story-portplio-list-container{
+    height: 100px;
+    width: 100%;
+    /*text-align: center;*/
+    margin-top : 60px;
+    border-top: 1px solid #9E9E9E;
+    border-bottom: 1px solid #9E9E9E;
+    background-color: #f6f7f7;
+}
+.homed-story-portplio-list-img{
+    height: 90px;
+    width: 90px;
+    /*margin : 5px 10px;*/
+    cursor: pointer;
+}
+.homed-story-portpolio-img{
+    width: 95%;
+    height: auto;
+    margin: 10px 2.5%;
+}
+.homed-story-portpolio-img-carousel-btns{
+    display: none;
+}
+.homed-story-portpolio-img-carousel-inner-div{
+    width: 900px;
+}
+.homed-story-portpolio-img-list-div {
+  width: 900px;
+  display: inline-block;
+}
+.homed-story-portpolio-main-title{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+}
+.homed-story-portpolio-designer{
+    margin-left: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+}
+.homed-story-portpolio-main-title,.homed-story-portpolio-designer {
+    margin-top: 10px;
+}
+.homed-story-portpolio-line{
+    height: 1.2px;
+        width: 65px;
+        background-color: black;
+        margin-bottom: -6px;
+        margin-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.homed-story-portpolio-subtitle{
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.homed-story-portpolio-text{
+    padding-bottom: 14px;
+    font-size: 14px;
+    width: 100%;
+}
+.homed-story-portpolio-price{
+    margin-right: 8px;
+    padding-top: 5px;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #f4af00;
+}
+.homed-story-portpolio-time{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+}

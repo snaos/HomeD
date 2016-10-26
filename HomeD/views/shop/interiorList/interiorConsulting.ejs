@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/v1-page/v1-nav.css' />
+    <link rel='stylesheet' href='/stylesheets/v1-page/v1-interior-list.css' />
+  </head>
+  <script type="text/javascript">
+
+  </script>
+  <body>
+    <div id="interior-info-container">
+      <nav class="v1-nav-top">
+        <div class="nav-top-logo-div">
+          <div class="xs-slide-bar-button visible-xs"><img class="slide-bar-button-img visible-xs" src="/icon/slide_btn.png"></div>
+          <a href=/main style=text-decoration:none><img class="homed-logo homed-logo-white hidden-xs" src=/icon/logo_homed_white.png alt="홈디 로고"> <img class="homed-logo visible-xs" src="/icon/homed-white-logo_text.png"></a>
+        </div>
+        <div class="nav-top-div">
+          신청 리스트
+        </div>
+        <div class="nav-top-div">
+          홈디 드라이브
+        </div>
+        <div class="nav-top-div">
+          문서 작업
+        </div>
+      </nav>
+      <form action "/v1/web/user/consulting/<%=userNo%>" method="post" enctype="multipart/form-data">
+        <div class="interior-info-inner-container">
+          <p class="inteior-info-container-title">홈디 인테리어 고객 정보</p>
+          <div class="user-interior-info-table">
+            <div class="user-interior-info-table-row">
+              <div class="user-interior-info-title"><p>이름</p> </div>
+              <div class="user-interior-info-blank"><p><%=results.userNm%> </p></div>
+              <div class="user-interior-info-title"><p>연락처</p></div>
+              <div class="user-interior-info-blank"><p><%=results.userPhone%></p></div>
+            </div>
+            <div class="user-interior-info-table-row">
+              <div class="user-interior-info-title"><p>이메일</p></div>
+              <div class="user-interior-info-blank"><p><%=results.userEmail%></p></div>
+              <div class="user-interior-info-title"><p>신청 타입</p></div>
+              <div class="user-interior-info-blank"><p><%=results.interiorType%></p></div>
+            </div>
+            <div class="user-interior-info-table-row">
+              <div class="user-interior-info-title"><p>신청 시간</p></div>
+              <div class="user-interior-info-blank"><p><%=results.interiorTime%></p></div>
+              <div class="user-interior-info-title"><p>나이</p></div>
+              <div class="user-interior-info-blank"><p><%=results.age%></p></div>
+            </div>
+            <div class="user-interior-info-table-row">
+              <div class="user-interior-info-title"><p>주거형태</p></div>
+              <div class="user-interior-info-blank"><p><%=results.userHousing%></p></div>
+              <div class="user-interior-info-title"><p>주소</p></div>
+              <div class="user-interior-info-blank">
+                <textarea COLS=20 ROWs=5 name=userAddress placeholder="<%=results.userAddress%>"><%=results.userAddress%></textarea>
+              </div>
+            </div>
+            <div class="user-interior-info-table-row">
+              <div class="user-interior-info-title"><p>메시지</p></div>
+              <div class="user-interior-info-blank"><p><%=results.userMessage%></p></div>
+              <div class="user-interior-info-title"><p>유입 경로</p></div>
+              <div class="user-interior-info-blank">
+                <input type="text" name=funnel placeholder="<%=results.funnel%>" value="<%=results.funnel%>"></div>
+            </div>
+            <div class="user-interior-info-table-row">
+              <div class="user-interior-info-title"><p>예산안</p></div>
+              <div class="user-interior-info-blank"><p><%=results.interiorBill%></p></div>
+              <div class="user-interior-info-title"><p>컨셉</p></div>
+              <div class="user-interior-info-blank"><p><%=results.concept%></p></div>
+            </div>
+            <div class="user-interior-info-table-image-row">
+              <div class="user-interior-info-image"><%for (var i =0; i<interiorImages.length; i++) {%>
+                <img src="<%=interiorImages[i]%>">
+                <%}%><%for (var i =0; i<interiorRoomImages.length; i++) {%>
+                <img src="<%=interiorRoomImages[i]%>">
+                <%}%></div>
+            </div>
+            <div class="user-interior-info-table-row">
+              <div class="user-interior-info-title"><p>오프라인</p></div>
+              <div class="user-interior-info-blank"><input type="text"  name=offline placeholder="<%=results.offline%>" value="<%=results.offline%>"></div>
+              <div class="user-interior-info-title"><p>시공 유무</p></div>
+              <div class="user-interior-info-blank"> <textarea COLS=20 ROWs=5 name=contractors placeholder="<%=results.contractors%>"><%=results.contractors%></textarea></div>
+            </div>
+            <div class="user-interior-info-table-row">
+              <div class="user-interior-info-title"><p>담당자</p></div>
+              <div class="user-interior-info-blank">
+                <input type="text" name=manager placeholder="<%=results.manager%>" value="<%=results.manager%>"></div>
+              <div class="user-interior-info-title"><p>담당자 번호</p></div>
+              <div class="user-interior-info-blank"> <input type="text" name=managerPhone placeholder="<%=results.managerPhone%>" value="<%=results.managerPhone%>"></div>
+            </div>
+            <div class="user-interior-info-table-row">
+              <div class="user-interior-info-title"><p>홈스타일링 공간 수</p></div>
+              <div class="user-interior-info-blank"> <input type="text" name=spaceNo placeholder="<%=results.spaceNo%>" value="<%=results.spaceNo%>"></div>
+              <div class="user-interior-info-title"><p>견적 금액</p></div>
+              <div class="user-interior-info-blank"><input type="text" name=interiorEstimate  placeholder="<%=results.interiorEstimate%>" value="<%=results.interiorEstimate%>"></div>
+            </div>
+            <div class="user-interior-info-table-row">
+              <div class="user-interior-info-title"><p>진행 가능 기간</p></div>
+              <div class="user-interior-info-blank"><textarea COLS=20 ROWs=5 name=stylingPeriod placeholder="<%=results.stylingPeriod%>"><%=results.stylingPeriod%></textarea></div>
+              <div class="user-interior-info-title"><p>진행 상태</p></div>
+              <div class="user-interior-info-blank"><textarea COLS=20 ROWs=5 name=interiorFlowStatus placeholder="<%=results.interiorFlowStatus%>"><%=results.interiorFlowStatus%></textarea></div>
+            </div>
+            <div class="user-interior-info-table-row">
+              <div class="user-interior-info-title"><p>상담 내용</p></div>
+              <div class="user-interior-info-blank"><textarea COLS=20 ROWs=5 name=userInfo placeholder="<%=results.userInfo%>"><%=results.userInfo%></textarea></div>
+            </div>
+          </div>
+        </div>
+        <div class="user-interior-info-table-btns-container">
+            <a href="/v1/web/interiorRequestList/1"><input type="button" value="리스트 돌아가기"></a>
+            <input type="submit" value="작성 완료">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

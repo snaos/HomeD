@@ -1,0 +1,15 @@
+#apply-page-div{
+	display: none;
+}
+.apply-homed-sorry-div{
+	position:fixed;
+	top : 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center
+}
+.apply-homed-sorry-div > img {
+	display: inline-block;
+width: 100%;
+height: 100%;}

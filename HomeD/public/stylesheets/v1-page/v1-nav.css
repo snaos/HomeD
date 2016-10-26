@@ -1,0 +1,23 @@
+.v1-nav-top {
+	height: 100px;
+	width: 100%;
+	background-color: #192641;
+}
+.visible-xs {
+	display: none;
+}
+.homed-logo {
+	height: 50px;
+
+}
+.nav-top-logo-div{
+	width: 250px;
+	height: 48px;
+	display: inline-block;
+}
+.nav-top-div {
+	display: inline-block;
+	color : white;
+	width: 150px;
+	height: 48px;
+}

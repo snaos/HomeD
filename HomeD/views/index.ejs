@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="http://www.moongori.com/shop/renew_20140325.js"></script>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <div id="content">
+    <!--###################################################################################### 상품에 필요한부분-->
+    <input type='hidden' name='cno1' id='cno1' value='509' />
+    <input type='hidden' name='cno2' id='cno2' value='' />
+    <!--###################################################################################### 상품리스트에 필요한부분-->
+    <script type="text/javascript" src="/shop/renew_20140325.js"></script>
+    <!--###################################################################################### 상품리스트에 필요한부분-->
+
+    <div style="clear:both; width:100%;">																			<br>								</div>
+
+    	<script type="text/javascript">
+    	// 대분류,중분류,소분류
+    	$(document).ready(function(){
+    		$("img.btnon").hover(function(){
+    			$(this).attr("src",$(this).attr("src").replace(".jpg","_on.jpg"));
+    		},function(){
+    			$(this).attr("src",$(this).attr("src").replace("_on.jpg",".jpg"));
+    		});
+    	});
+    	</script>
+
+
+    <link rel="stylesheet" type="text/css" href="./renew_20140325.css">
+    <style type="text/css">
+    .loadingdiv{position:absolute;width:998px;height:100px;text-align:center;padding:50px;z-index:99;}
+    /* 신규 페이징 시작 */
+    #pagingdiv, #pagingdivtop{ border: 0 }
+    .pagingul li,
+    .prod_list li { padding:0px; border:0px !important; }
+    .pagingul .txt { padding:0px; }
+    .pagingul .txt strong,
+    .pagingul .txt a {
+    	padding:0px;
+    	display:inline-block;
+    	background-image:none;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        margin: 0 1px;
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ddd;
+        vertical-align: middle !important;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        font-size: 14px;
+        color: #999;
+    	text-decoration:none;
+    }
+    .pagingul .txt a:hover { border-color:#eb060e; background-color:#eb060e; color:#FFF; font-weight:700; }
+    .pagingul .txt strong { border-color: #eb060e; background-color:#eb060e; color: #FFF; }
+    .pagingul li strong { background-image:none; padding:0px; border:0px; line-height:32px; color:#FFF; }
+    .pagingul li.img { padding:0px; display:inline-block; width:32px; height:32px; background-repeat:no-repeat;  vertical-align:top; border:1px solid #ddd; cursor:pointer; background-position:2px 2px; }
+    .pagingul li.start { background-image:url('http://img.moongori.com/_image/common/list_page_first_btn.png'); }
+    .pagingul li.prev { background-image:url('http://img.moongori.com/_image/common/list_page_prev_btn.png'); }
+    .pagingul li.next { background-image:url('http://img.moongori.com/_image/common/list_page_next_btn.png'); }
+    .pagingul li.end { background-image:url('http://img.moongori.com/_image/common/list_page_end_btn.png'); }
+    .pagingul li.start a, .pagingul li.prev a, .pagingul li.end a, .pagingul li.next a { padding:0px; width:32px; height:32px; border:1px solid #ddd; }
+    .pagingul li.start a:hover, .pagingul li.prev a:hover, .pagingul li.end a:hover, .pagingul li.next a:hover { border-color:#eb060e; font-weight:700; }
+    .pagingul li.start img, .pagingul li.prev img, .pagingul li.end img, .pagingul li.next img { display:none; }
+    /* 신규 페이징 종료 */
+    </style>
+    <div id="mainprdid" value="509"></div>
+    <form id="prdMethods509" onsubmit="return false">
+    		<input type="hidden" name="page" id="page509" value="1">
+    		<input type="hidden" name="ajaxid" id="ajaxid509" value="509">
+    	<input type="hidden" name="brandid" id="brandid509" value="">
+    	<input type="hidden" name="catetype" id="catetype509" value="">
+    	<input type="hidden" name="catesearch" id="catesearch509" value="">
+    	<input type="hidden" name="thumb_cols" id="thumb_cols509" value="">
+    	<input type="hidden" name="thumb_w" id="thumb_w509" value="narrow">
+    	<input type="hidden" name="thumb_h" id="thumb_h509" value="narrow">
+    	<input type="hidden" name="prd_regdate" id="prd_regdate509" value="">
+    	<input type="hidden" name="crow" id="crow509" value="">
+    	<input type="hidden" name="sort" id="sort509" value="7">
+    	<input type="hidden" name="cno1" id="cno1509" value="509" />
+    	<input type="hidden" name="cno2" id="cno2509" value="" />
+    	<input type="hidden" name="gno" id="gno509" value="" />
+
+    <div class="prod_wrap" id="prod_wrap509">
+
+    	<style type="text/css">
+    	.pagingul { display: none; }
+    	.prod_list { margin-left: -1px; }
+    	.prod_list li { float: left; width: 184px; padding: 30px 0 0 30px; border: 0; border-top: 1px solid #dedede; }
+    	.prod_list li.first { padding-left: 0; }
+    	.prd { padding-bottom: 24px; }
+    	.prd .thumb a { display: block; width: 182px; height: 182px; margin-bottom: 9px; border: 1px solid #ddd; }
+    	.prd .thumb a:hover { border: 1px solid #8893f6; }
+    	.prd .name { padding-bottom: 8px; }
+    	.prd .name,
+    	.prd .name a { font-size: 12px; color: #666; }
+    	.prd .price { padding-bottom: 16px; font-size: 12px; font-weight: bold; color: #000; }
+    	.prd .btn_wish,
+    	.prd .btn_wish_on { display: block; width: 11px; height: 10px; text-indent: -50000px; outline: 0; position: absolute; top: 1px; right: 0; }
+    	.prd .btn_wish { background: url(http://img.moongori.com/_image/shop/wish.gif) no-repeat; }
+    	.prd .btn_wish:hover { background: url(http://img.moongori.com/_image/shop/wish_o.gif) no-repeat; }
+    	.prd .btn_wish_on { background: url(http://img.moongori.com/_image/shop/wish_on.gif) no-repeat; }
+    	</style>
+
+    	<div class="page_location">
+    		<p class="page"><a href="/" class="home">home</a> &gt <span> @ 문고리메인 - 신상품</span></p>
+    		<p class="msg">문고리닷컴  @ 문고리메인 - 신상품</p>
+    	</div>
+
+    	<div style="background: #f5f5f5; padding-left: 29px; border: 1px solid #ddd; border-radius: 7px; position: relative;">
+    		<h2 style="padding: 33px 0 1px 10px;"><img src="http://img.moongori.com/_image/_title/cno1_509.gif" alt=""></h2>
+
+    		<ul style="margin: 0; padding: 0; list-style: none; position: absolute; top: 19px; right: 29px; ">
+    			<li style="float: left; padding-left: 11px;"><a href="/shop/big_section.php?cno1=509"><img src="http://img.moongori.com/_image/shop/cate509_o.gif" alt=""></a></li>
+    			<li style="float: left; padding-left: 11px;"><a href="/shop/big_section.php?cno1=3572"><img src="http://img.moongori.com/_image/shop/cate3572.gif" alt=""></a></li>
+    			<li style="float: left; padding-left: 11px;"><a href="/shop/big_section.php?cno1=3571"><img src="http://img.moongori.com/_image/shop/cate3571.gif" alt=""></a></li>
+    		</ul>
+
+    		<!-- 상품영역 -->
+    		<div class="">
+    			<div id="loadingdiv509" class="loadingdiv"><img src="/_image/renew/loading.gif"></div>
+    			<ul class="prod_list" id="productlist509" style="z-index:60;"></ul>
+    		</div>
+    				<script>chkproductlist("509","","")</script>
+    		<!--// 상품영역 -->
+
+
+    		<div style="margin: 40px 0 52px 0; position: relative;">
+    			<img src="http://img.moongori.com/_image/shop/btn_top.gif" alt="" style="cursor: pointer;" onclick="$('html, body').stop().animate({ scrollTop : 0 }, 500); ">
+    			<ul style="margin: 0; padding: 0; list-style: none; position: absolute; top: 4px; right: 29px; ">
+    				<li style="float: left; padding-left: 11px;"><a href="/shop/big_section.php?cno1=509"><img src="http://img.moongori.com/_image/shop/cate509_o.gif" alt=""></a></li>
+    				<li style="float: left; padding-left: 11px;"><a href="/shop/big_section.php?cno1=3572"><img src="http://img.moongori.com/_image/shop/cate3572.gif" alt=""></a></li>
+    				<li style="float: left; padding-left: 11px;"><a href="/shop/big_section.php?cno1=3571"><img src="http://img.moongori.com/_image/shop/cate3571.gif" alt=""></a></li>
+    			</ul>
+    		</div>
+    	</div>
+    	<!-- 배너 -->
+    	<style>
+    		#rollingbanner{margin-top:30px; height:107px;}
+    		#rollingbanner li{display:none;position:absolute;}
+    	</style>
+    	<script>
+    		function rollingbanner(){
+    			var cnt = $("#rollingbanner > li").size() - 1;
+
+    			var num = $("#rollingbanner").attr("value");
+    			if(num==""){
+    				var num2 = Math.floor(Math.random() * cnt);
+    				$("#rollingbanner_"+num2).css({"display":"block"});
+    			}else{
+    				var num2 = parseInt(num) + 1;
+    			}
+    			if(num2>cnt){num2=0;}
+    			$("#rollingbanner").attr("value",num2);
+    			$("#rollingbanner_"+num).animate({
+    				"opacity":"0"
+    			},"10","linear",function(){
+    				$("#rollingbanner_"+num).css("display","none");
+    				$("#rollingbanner_"+num2).css({"display":"block","opacity":"1"});
+    			});
+    		}
+    	</script>
+    	<ul id='rollingbanner' value=''><li id='rollingbanner_0'><a href="http://tagongpan.com/" target="_blank" onfocus=this.blur()><img src="http://file.moongori.com/_data/banner/d28267af97f9c2dce389b8baecff662b.jpg" border="0" alt="" ></a></li><li id='rollingbanner_1'><a href="http://www.moongori.com/shop/event/marble.php"  onfocus=this.blur()><img src="http://file.moongori.com/_data/banner/b67ec85308826d24cd34011c77d92449.jpg" border="0" alt="" ></a></li><li id='rollingbanner_2'><a href="http://www.moongori.com/content/content.php?cont=new_369"  onfocus=this.blur()><img src="http://file.moongori.com/_data/banner/77ae5edc7a5d52c3efef389a6e25c0ca.jpg" border="0" alt="" ></a></li><li id='rollingbanner_3'><a href="/content/content.php?cont=owl&cno1=5480"  onfocus=this.blur()><img src="http://file.moongori.com/_data/banner/e1d8858e5d11d5ec9d5855a06d8e318f.jpg" border="0" alt="" ></a></li><li id='rollingbanner_4'><a href="/shop/detail.php?pno=9421115D8CC6289AC82EEEEB8DE48142&ctype=2&cno1=7421"  onfocus=this.blur()><img src="http://file.moongori.com/_data/banner/d081528f70af0e80953b5b3d1c713507.jpg" border="0" alt="" ></a></li><li id='rollingbanner_5'><a href="/board/index.php?db=notice&ifr=&temp2=&no=1023358&mari_mode=view%40view"  onfocus=this.blur()><img src="http://file.moongori.com/_data/banner/86ccd911fa3075da8ae4d876758758a8.jpg" border="0" alt="" ></a></li><li id='rollingbanner_6'><a href="http://moongori.com/shop/event/marble.php"  onfocus=this.blur()><img src="http://file.moongori.com/_data/banner/084f987ff45ac367e8754aa86dd51b53.jpg" border="0" alt="" ></a></li></ul><script>rollingbanner()</script><script>setInterval('rollingbanner()',9000000)</script>	<!-- 배너 -->
+
+
+    	</div>
+    	<!--// 상품리스트 -->
+
+ <script type="text/javascript">
+ $(document).on("mouseenter", ".sublnb > li", function() {
+ 	$(".sublnb  li > a").removeClass("on");
+ 	$(".sublnb .subdepth03").hide();	$(".sublnb .subdepth03 > li > a").removeClass("on");
+
+ 	$(this).find("> a").addClass("on");
+ 	var $depth3 = $(this).find(".subdepth03");
+
+ 	if( $depth3.length > 0 )	$depth3.show();
+ });
+
+ $(document).on("mouseenter", ".box_cate", function() {
+ 	$(this).css('z-index','101');
+ 	$(this).find('img').attr('src','http://www.moongori.com/_image/shop/big/cate_list_on.gif');
+ 	$(this).find('.list').show();
+ });
+
+ $(document).on("mouseleave", ".box_cate", function() {
+ 	$(this).css('z-index','100');
+ 	$(this).find('img').attr('src','http://www.moongori.com/_image/shop/big/cate_list.gif');
+ 	$(this).find('.list').hide();
+ });
+
+ $(function() {
+ 	$("#header201509 .link").css("padding-top", "21px");
+ });
+ </script>
+
+
+  </body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "HomeD",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "*",
+    "async-foreach": "*",
+    "body-parser": "*",
+    "compression": "*",
+    "cookie-parser": "*",
+    "crypto": "*",
+    "debug": "*",
+    "ejs": "*",
+    "express": "*",
+    "express-mysql-session": "*",
+    "express-session": "*",
+    "fbgraph": "*",
+    "fs-extra": "*",
+    "morgan": "*",
+    "multer": "*",
+    "mysql": "*",
+    "node-gcm": "*",
+    "nodemailer": "*",
+    "owl.carousel": "^2.1.4",
+    "passport": "*",
+    "request": "*",
+    "serve-favicon": "*"
+  }
+}

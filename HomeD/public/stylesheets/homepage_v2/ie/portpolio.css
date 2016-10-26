@@ -1,0 +1,401 @@
+body {
+	background-color: #e8e8e8;
+}
+#portpolio-list-container {
+	min-height: 800px;
+	width: 100%;
+	background-color: #e8e8e8;
+}
+.portpolio-list-inner-container{
+	padding-top: 100px;
+	max-width: 1500px;
+	padding-bottom: 100px;
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.portpolio-list-inner-container > a {
+	text-decoration: none;
+	color: black;
+}
+.portpolio-list-div {
+	margin : 5px;
+	width	:  390px;
+	height: 390px;
+	border: 1px solid #e8e8e8;
+	background-color: white;
+	display: inline-block;
+}
+.portpolio-img-div {
+	height: 250px;
+	width: 100%;
+}
+.portpolio-img{
+	width: 100%;
+	height: 100%;
+}
+
+.portpolio-text-div {
+	height: 140px;
+	text-align: center;
+}
+.portpolio-service-type-p{
+	font-weight: 600;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: -5px;
+}
+.portpolio-title-p {
+	font-size: 16px
+}
+.portpolio-yellow-bar{
+	width: 50px;
+	margin-bottom: 2px;
+	height: 1.5px;
+	background-color: #ffc40b;
+display: inline-block;
+}
+.portpolio-info-divs {
+	margin-top: 15px;
+}
+.portpolio-info-div {
+	display: inline-block;
+}
+.portpolio-info-img{
+	position:relative;
+	top : -2.5px;
+	width: 20px;
+}
+.portpolio-container{
+	margin-top: 50px;
+	width: 100%;
+	background-color: white;
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	border : 1px solid black;
+}
+.portpolio-imgs-container{
+	width: 100%;
+	margin : 0px auto 10px auto;
+}
+.portpolio-img-showing-div{
+	width: 100%;
+	height: auto;
+	margin : 0.5% auto;
+	text-align: center;
+}
+.portpolio-img-showing-img{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.portpolio-img-list-div{
+	text-align: center;
+	width: 100%;
+	height: 55px;
+}
+.portpolio-img-list-img{
+	height: 99%;
+	width: auto;
+	margin : 0.5% 5px;
+	display: inline-block;
+	cursor: pointer;
+}
+.portpolio-content-title-div{
+	margin-top:5px;
+	border-top: 1px solid #e8e8e8;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.portpolio-content-title-yellow-bar{
+	width: 20px;
+	height: 35px;
+	background-color:#F89E00;
+	display: inline-block;
+}
+.portpolio-content-title-text{
+	font-size: 25px;
+	font-weight: 600;
+}
+.portpolio-content-short-info-container{
+	text-align: center;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.portpolio-content-short-info-div{
+	width: 150px;
+	text-align: center;
+	display: inline-block;
+}
+.portpolio-content-short-info-img{
+	display: inline-block;
+	width: 60%;
+	height:auto;
+}
+.portpolio-short-info-p{
+	font-weight: 600;
+	margin-top: 30px;
+}
+.portpolio-content-user-wish-inner-div{
+	margin : 0 auto;
+	position: relative;
+	text-align: center;
+}
+.portpolio-text-and-line {
+	width: 100%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.portpolio-text-and-line-line, .portpolio-text-and-line-text {
+	display: inline-block;
+}
+.portpolio-text-and-line-line{
+	background-color: #F89E00;
+	height: 1px;
+	width: 43%;
+}
+.portpolio-text-and-line-text {
+	width: 13%;
+	font-weight: 600;
+}
+.portpolio-content-user-wish-div{
+	text-align: center;
+	margin : 50px auto;
+	width: 650px;
+	font-size: 18px;
+	font-weight: 600;
+}
+.portpolio-content-user-wish-comma,.portpolio-content-user-wish-comma-reverse{
+	width: 40px;
+	height: auto;
+	position: absolute;
+}
+.portpolio-content-user-wish-comma{
+	top: -20px;
+	left: 0;
+
+}
+.portpolio-content-user-wish-comma-reverse{
+	bottom:-20px;
+	right:0;
+	-webkit-transform: rotate(180deg);
+	    -moz-transform: rotate(180deg);
+	    -o-transform: rotate(180deg);
+	    -ms-transform: rotate(180deg);
+	    transform: rotate(180deg);
+}
+.portpolio-designer-info-div{
+	margin : 20px auto;
+	width: 700px;
+	text-align: center;
+}
+.portpolio-designer-info-img{
+	margin : 20px;
+	width: 200px;
+	display: inline-block;
+	text-align: right;
+}
+.portpolio-designer-info-text{
+	width: 400px;
+	display: inline-block;
+	text-align: left;
+	position: relative;
+	top:30px;
+	left:30px;
+	margin-left: 40px;
+}
+.portpolio-designer-black-vertical-bar {
+	height: 60px;
+	position: absolute;
+	top : 3px;
+	left: -45px;
+	width: 1.5px;
+	background-color: black;
+}
+.portpolio-designer-name {
+	font-weight: 600;
+	font-size: 18px;
+}
+.portpolio-designer-text {
+	font-size: 16px;
+	margin-bottom: 3px;
+}
+.portpolio-designer-img{
+	width: 80%;
+	height: auto;
+}
+.portpolio-content-main-text-container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-top: 1px solid #e8e8e8;
+	margin-bottom: 40px;
+}
+.portpolio-content-homstyling-info-text-inner{
+	display: inline-block;
+	height: 200px;
+	vertical-align: top;
+}
+.portpolio-content-homstyling-info-text-inner > br {
+	line-height: 26px;
+}
+.portpolio-content-homstyling-info-text{
+	width: 33%;
+	display: inline-block;
+	position: relative;
+	height: 170px;
+}
+.portpolio-content-homstyling-info-text-2box{
+	width: 66%;
+	display: inline-block;
+	position: relative;
+	height: 170px;
+}
+.portpolio-content-homstyling-info-text-title{
+	font-weight: 600;
+	font-size: 20px;
+	margin-top: 25px;
+}
+.portpolio-content-main-text-imgs{
+	width: 100%;
+	height: auto;
+}
+.portpolio-content-main-text-designer-suggest-title,.portpolio-content-main-text-designer-suggest-text{
+	font-size: 18px;
+	margin
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.portpolio-content-main-text-designer-suggest-text{
+	margin-top : 3px;
+	margin-bottom: 3px;
+}
+.portpolio-content-main-text-designer-suggest-title {
+	font-weight: 600;
+	margin-top : 10px;
+	margin-bottom: 1px;
+
+}
+.portpolio-content-main-text-homstyling-info-div{
+	margin-top: 10px;
+	width: 100%;
+	border-top: 1px solid #e8e8e8;
+		border-bottom: 1px solid #e8e8e8;
+	}
+.portpolio-content-homstyling-info-color{
+	width: 80%;
+}
+.grey-vertical-bar{
+	position: absolute;
+	height: 55px;
+	width: 2px;
+	background-color: #e8e8e8;
+	top:65px;
+}
+.grey-vertical-bar-left{
+	left: 0;
+}
+.grey-vertical-bar-right{
+	right : 0;
+}
+
+
+@media all and (max-width:768px){
+	.portpolio-list-inner-container{
+		width: 100%;
+	}
+	.portpolio-list-div{
+		width: 100%;
+		margin : 10px auto;
+		height: auto;
+		display: inline-block;
+	}
+	.portpolio-title-p{
+		font-size: 14px;
+	}
+	.portpolio-img-div{
+		width: 100%;
+		height: auto;
+	}
+	.portpolio-imgs-container {
+		height: auto;
+	}
+	.portpolio-img-list-div{
+		width: 100%;
+		height: auto;
+	}
+	.portpolio-img-list-img{
+		height: 55px;
+		width: auto;
+	}
+	.portpolio-img-showing-div{
+		height: auto;
+	}
+	.portpolio-img-showing-img{
+		width: 100%;
+		height: auto;
+	}
+	.portpolio-content-short-info-div{
+		width: 100px;
+	}
+	.portpolio-text-and-line{
+		width: 100%;
+	}
+	.portpolio-text-and-line-line {
+		width: 23%;
+	}
+	.portpolio-text-and-line-text{
+		width:40%;
+	}
+	.portpolio-content-user-wish-div{
+		width: 90%;
+	}
+	.portpolio-content-user-wish-comma {
+		top : -40px;
+	}
+	.portpolio-content-user-wish-comma-reverse {
+		bottom : -40px;
+	}
+	.portpolio-content-user-wish-inner-div{
+		font-size: 16px;
+	}
+	.portpolio-content-main-text-container{
+		width: 100%;
+	}
+	.portpolio-content-main-text-designer-suggest-title{
+		font-size: 16px;
+	}
+	.portpolio-content-main-text-designer-suggest-text{
+		font-size: 16px;
+	}
+	.portpolio-content-homstyling-info-text {
+		width: 80%;
+	}
+	.portpolio-content-main-text-designer-suggest-text{
+		width: 90%;
+		font-size: 14px;
+		margin : 2px auto;
+	}
+	.portpolio-designer-info-img{
+		text-align: center;
+	}
+	.portpolio-designer-info-div{
+		width: 100%;
+		padding-bottom: 100px;
+	}
+	.portpolio-designer-info-div{
+		text-align: center;
+	}
+	.portpolio-designer-info-text{
+		text-align: center;
+		margin : 0 auto;
+		width: 100%;
+		left: 0;
+	}
+}

@@ -1,0 +1,110 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+.interior-list-table {
+	text-align: center;
+}
+.interior-list-table-title{
+	background-color: rgba(254, 255, 0, 0.4);
+	padding : 7px;
+	display: inline-block;
+	margin : 20px 0 auto auto;
+	border-bottom:  0.5px solid rgba(181,181,144,0.6);
+
+}
+.interior-list-table-title-div, .interior-list-talbe-list-div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.interior-list-table-list{
+	padding : 5px;
+	margin : 0 auto;
+	border-bottom:  0.5px solid rgba(181,181,144,0.6);
+	display: inline-block;
+
+}
+.interior-list-table-title-div-date{
+	width: 150px;
+}
+.interior-list-table-title-div-name {
+	width: 80px;
+}
+.interior-list-table-title-div-phone {
+	width : 120px;
+}
+.interior-list-table-title-div-bill {
+	width: 150px;
+}
+.interior-list-table-title-div-address {
+	width: 200px;
+}
+.interior-list-table-title-div-status {
+	width: 80px;
+}
+.interior-list-table-title-div-type {
+	width: 50px;
+}
+.interior-list-table-nav{
+	width:100%;
+	text-align:center;
+	margin-top:20px;
+}
+
+/*유저 인포*/
+.interior-info-inner-container {
+	text-align: center;
+}
+.user-interior-info-table{
+	display: table;
+	margin : 0 auto;
+	height: auto;
+	width: 900px;
+	vertical-align: middle;
+	border-top: 2px solid black;
+}
+.user-interior-info-table-row{
+	display: table-row;
+	vertical-align: middle;
+}
+.user-interior-info-title, .user-interior-info-blank {
+	display: table-cell;
+	width : 24%;
+	border: 1px solid rgba(150,150,150,0.3);
+}
+.user-interior-info-title {
+	font-weight: 600;
+	background-color: rgba(184,203,247,0.6);
+}
+.inteior-info-container-title{
+	margin : 20px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.user-interior-info-table-image-row {
+	display: table-row;
+}
+.user-interior-info-image {
+	display: block;
+	width: 400%;
+}
+.user-interior-info-image > img {
+	width: 200px; height: 200px
+}
+.user-interior-info-title >p,  .user-interior-info-blank > p {
+	width: 100%;
+	height: 100%;
+}
+.user-interior-info-table-btns-container{
+	margin : 50px auto 100px  auto;
+	text-align: center;
+}
+.user-interior-info-table-btn{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	border: 1px solid rgb(199,199,199);
+	vertical-align: middle;
+	text-align: center;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <form action "/v1/web/addShop" method="post" enctype="multipart/form-data">
+    	<h1>쇼핑몰 추가</h1>
+      비밀번호         :  <input type="password" name="pw" size="10"><br>
+      쇼핑몰 영문 이름   : <input type="text" name="shopENm"> <br>
+      쇼핑몰 이름       :  <input type="text" name="shopNm" size="10" maxlength="20">  <br>
+      쇼핑몰 정보       :  <input type="text" name="shopInfo" size="10" maxlength="20"> <br>
+      쇼핑몰 url       :   <input type="text" name="shopUrl" size="30"><br>
+      쇼핑몰 로고       :  <input type="file" name="shopImg"><br>
+      쇼핑몰 대표 이미지  :  <input type="file" name="shopImg"><br><br>
+      <input type="submit" value="추가">
+    </form>
+  </body>
+</html>

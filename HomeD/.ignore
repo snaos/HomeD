@@ -1,0 +1,7 @@
+**/node_modules
+/app.js
+/sftp-config.json
+/models/presettings.js
+/models/web_shop
+/views/shop
+**/TemsOfUse
